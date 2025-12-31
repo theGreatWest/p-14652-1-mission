@@ -1,0 +1,6 @@
+# 개발환경 설정 파일
+spring:
+  kafka:
+    bootstrap-servers: localhost:19092
+    consumer:
+      auto-offset-reset: latest

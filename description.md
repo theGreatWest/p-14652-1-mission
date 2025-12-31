@@ -14,3 +14,5 @@
 - 프로듀서 : 이벤트를 생성하는 주체(eventPublisher.publishEvent(...))
 - 컨슈머 : 이벤트를 수신하는 주체(@KafkaListener(topics = "MemberJoinedEvent"))
 
+$ docker ps
+명령어로 현재 실행 중인 컨테이너 확인 가능
